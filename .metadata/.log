@@ -1,0 +1,24 @@
+!SESSION 2024-04-06 14:53:19.212 -----------------------------------------------
+eclipse.buildId=Version 1.14.0
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_CA
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data C:\Users\willc\STM32CubeIDE\SPITesting
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-04-06 14:53:26.842
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-04-06 14:53:26.855
+!MESSAGE Log4j2 initialized with config file C:\Users\willc\STM32CubeIDE\SPITesting\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-04-06 14:53:31.047
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-04-06 14:55:22.360
+!MESSAGE Indexed 'TunaBMS' (19 sources, 82 headers) in 4.96 sec: 4,866 declarations; 25,385 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0066%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-04-06 15:07:16.242
+!MESSAGE Indexed 'QuadrunaBMS' (24 sources, 85 headers) in 4.56 sec: 7,784 declarations; 53,923 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0032%)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.launch 2 0 2024-04-06 15:17:28.256
+!MESSAGE Won't launch debug session since we failed to locate the binary.

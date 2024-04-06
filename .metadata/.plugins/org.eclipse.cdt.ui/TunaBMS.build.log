@@ -1,0 +1,17 @@
+15:22:12 **** Incremental Build of configuration Debug for project TunaBMS ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F302xC -c -I../Core/Inc -IC:/Users/willc/STM32Cube/Repository/STM32Cube_FW_F3_V1.11.4/Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -IC:/Users/willc/STM32Cube/Repository/STM32Cube_FW_F3_V1.11.4/Drivers/STM32F3xx_HAL_Driver/Inc -IC:/Users/willc/STM32Cube/Repository/STM32Cube_FW_F3_V1.11.4/Drivers/CMSIS/Device/ST/STM32F3xx/Include -IC:/Users/willc/STM32Cube/Repository/STM32Cube_FW_F3_V1.11.4/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "TunaBMS.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\willc\STM32CubeIDE\SPITesting\TunaBMS\STM32F302CCTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="TunaBMS.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: TunaBMS.elf
+ 
+arm-none-eabi-size  TunaBMS.elf 
+arm-none-eabi-objdump -h -S TunaBMS.elf  > "TunaBMS.list"
+   text	   data	    bss	    dec	    hex	filename
+   8568	     20	   1668	  10256	   2810	TunaBMS.elf
+Finished building: default.size.stdout
+ 
+Finished building: TunaBMS.list
+ 
+
+15:22:13 Build Finished. 0 errors, 0 warnings. (took 845ms)
+

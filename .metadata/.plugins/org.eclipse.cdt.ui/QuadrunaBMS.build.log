@@ -1,0 +1,10 @@
+15:18:37 **** Incremental Build of configuration Debug for project QuadrunaBMS ****
+make -j16 all 
+arm-none-eabi-size  QuadrunaBMS.elf 
+   text	   data	    bss	    dec	    hex	filename
+   6384	     24	   1568	   7976	   1f28	QuadrunaBMS.elf
+Finished building: default.size.stdout
+ 
+
+15:18:38 Build Finished. 0 errors, 0 warnings. (took 223ms)
+
